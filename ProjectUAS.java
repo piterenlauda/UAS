@@ -62,7 +62,7 @@ public class ProjectUAS {
                 }
                 HA.SetTinggi1(b);
                 HA.SetSisiMiring1(c);
-                System.out.println("Jadi panjang alasnya: "+HA.HitungAlas());
+                System.out.println("Jadi panjang alasnya: "+HA.HitungAlas()+" cm");
                 break;
             case "2":
                 System.out.println("       Menghitung Tinggi Segitiga");
@@ -81,7 +81,7 @@ public class ProjectUAS {
                 }
                 HT.SetAlas2(a);
                 HT.SetSisiMiring2(c);
-                System.out.println("Jadi panjang alasnya: "+HT.HitungTinggi());
+                System.out.println("Jadi panjang alasnya: "+HT.HitungTinggi()+" cm");
                 break;
             case "3":
                 System.out.println("     Menghitung Sisi Miring Segitiga");
@@ -100,7 +100,7 @@ public class ProjectUAS {
                 }
                 HSM.SetAlas3(a);
                 HSM.SetTinggi3(b);
-                System.out.println("Jadi panjang alasnya: "+HSM.HitungSisiMiring());
+                System.out.println("Jadi panjang alasnya: "+HSM.HitungSisiMiring()+" cm");
                 break;
             case "4":
                 System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
@@ -109,7 +109,7 @@ public class ProjectUAS {
                 ulang="tidak";
                 break;
             default:
-                System.out.print("Maaf, pilihan anda tidak ada di menu");
+                System.out.println("Maaf, pilihan anda tidak ada di menu");
                 break;
         }
         }
